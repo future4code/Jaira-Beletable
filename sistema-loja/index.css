@@ -1,0 +1,18 @@
+.pano-de-fundo {
+    color: blue;
+    font-size: 100px;
+}
+.borda {
+    color: blue;
+    
+}
+.borda1 {
+    color:  blue; 
+    border: black;
+}
+button {
+    color: blue;
+    background-color: black;
+}
+
+
