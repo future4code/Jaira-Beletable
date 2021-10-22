@@ -1,0 +1,41 @@
+img {
+    width: 20px;
+
+}
+footer {
+    background-color:mediumvioletred;
+    position: absolute;
+    bottom: 0;
+width: 100%;
+
+
+}
+#alinhamento {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+   background-color: pink;
+   width: 240px;
+   height: 840px;
+   
+
+}
+main {
+    display: flex;
+    justify-content: space-between;
+}
+h1  {
+    background-color: mediumvioletred;
+    position:relative;
+    top: 0;
+    width: 100%;
+    height: 100px;
+
+}
+.b {
+    width: 50px;
+    height: 20px;
+}
+
+    
+
