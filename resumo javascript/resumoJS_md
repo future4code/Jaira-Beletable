@@ -1,0 +1,19 @@
+1 funcoes em javascript
+.serve para escrevemos codigos com mas facilidade sem precisar declara sempre o mesmo codigos
+2 objetos =>  o que é, para que serve
+.objetos sao estruturas de codigos que nos permite colocar todo tipo de informacao ,string,numeros,arrays
+3 arrays => sixtanse ,o que é e como usar
+.arrays sao listas de elementos,usamos para fazer uma lista de elementos que podem ser string e numeros
+4 map => sixtase, oque é  e como usar
+serve par mapear um array,usamos para renomear um array a partir do original
+5 filter => sixtase, o que é como usar
+.filter vem de filtrar um array, serve para filtrar um array original extraindo só o que queremos
+6 diferenca entre map e filtrer
+.o map ele modificar o array original o filtrer só filtrar o array original e nos dar o elemento que queremos
+7 diferenca entre metodo push e pop
+.o metodo push adicionar um elemento ou mas num array o pop retirar um elemento desse array
+8 Método slice do array  ⇒ Sintaxe, o que é e como usar
+.o metodo slice copia um array a partir do array original ,mas nao modificar o array original,usamos quando precisamos copiar um array sem modificalo
+9 Método splice do array  ⇒ Sintaxe, o que é e como usar
+metodo  splice  permite excluir ou adicionar elementos a um array, para fazer isso precisa de um argumento
+o segundo especificar o nmeros q serem excluidos e o terceiro a serem adicionados.
