@@ -15,10 +15,11 @@ background-color: brown;
 form {
     display: flex;
     justify-content : space-between;
-    margin-left: auto;
+    margin-left:  auto;
     width: 20vw;
-    height: 40vh;
-    padding: 0 20vh;
+    height: 5vh;
+    padding: 0 10vh;
+    
 }
 .videos {
 display:grid;
@@ -27,52 +28,56 @@ row-gap: 20vh;
 column-gap: 20vw;
 margin:20vh;
 justify-content: space-between;
-margin-left: auto;
-text-align: center;
-
-}
-
-    
-
-
-
-
-
-@media screen and (min-device-width : 1200px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .container {
-        width: 100%;
-        height: 80cm;
-    }
-    
-        
-    h1 {
-    background-color: brown;
-    }
-    form {
-        display: flex;
-        justify-content : space-between;
-        align-items : center;
-        width: 20vw;
-        height: 40vh;
-        padding: 0 20vh;
-    }
-    .videos {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 20vh;
-    column-gap: 20vw;
-    margin:20vh;
-    justify-content: space-between;
     align-items: center;
     text-align: center;
     
     }
-}  
+    @media screen and (min-device-width : 320px) and (max-device-width: 480px) {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 100%;
+            height: 80cm;
+        }
+        
+            
+        h1 {
+        background-color: brown;
+        }
+        form {
+            display: flex;
+            justify-content : space-between;
+            align-items : center;
+            width: 20vw;
+            height: 40vh;
+            padding: 0 20vh;
+        }
+        .videos {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 20vh;
+        column-gap: 20vw;
+        margin:20vh;
+        justify-content: start;
+        bottom: 0cm auto;
+        text-align: center;
+        
+        }
+    }
+
+
+
+
+
+    
+
+
+
+
+
     
         
     
@@ -80,45 +85,7 @@ text-align: center;
     
     
    
-@media screen and (min-device-width : 320px) and (max-device-width: 480px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .container {
-        width: 100%;
-        height: 80cm;
-    }
-    
-        
-    h1 {
-    background-color: brown;
-    }
-    form {
-        display: flex;
-        justify-content : space-between;
-        align-items : center;
-        width: 20vw;
-        height: 40vh;
-        padding: 0 20vh;
-    }
-    .videos {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 20vh;
-    column-gap: 20vw;
-    margin:20vh;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    
-    }
-}
-    
-        
-    
-    
+
     
     
     
