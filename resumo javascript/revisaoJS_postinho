@@ -1,0 +1,112 @@
+//console.log("ola")
+
+//exercicio 2
+
+a 1==="1"
+ false//
+b 1=="1"
+true//
+c "a"==="b"
+false//
+d "b">"a"
+true//
+e 0!==null
+true//
+
+exercicio 3
+
+function checarUsuario(nomeDoUsuario,anoDeNascimento,Nacionalidade,senhaDoUsuario) {
+    
+    if(usuarios > 18 && senhaDoUsuario >= 6 && usuarios === "brasileiro") {
+        console.log("pode ser cadastrar")
+    }
+
+}checarUsuario("enrique",1977,"brasileiro",124568)
+
+exercicio 4
+
+function senhaUsuario(senha) {
+    let pedidoDeSenha = number(prompt("insira sua senha"))
+ 
+   if(senha === pedidoDeSenha) {
+     console.log("senhavalida")
+     }else if(senha !== pedidoDeSenha) {
+      console.log(senhaInvalida)
+   }senhaUsuario(126780)
+   
+}
+exercicio 5
+
+function vacinaDoses(nome,vacina) {
+   let tempo 
+   let data 
+  
+  let vacinaseDoses 
+
+  switch (vacina) {
+  case "coronavac" :
+tempo = 28 dias
+data = 14/6/21
+  break
+   
+
+  
+  case "astrazenica" : 
+  tempo =  90 dias
+data = 10/08/21
+
+  break
+   
+
+  
+  case "pfizer" :
+  tempo = 90 dias
+   data = 17/08/21
+  break
+  
+
+  
+      
+  default: 
+  console.log("vacina nao encontrada")
+      break
+  }
+ 
+
+ 
+
+
+    console.log(`Olá ${nomeDoPaciente}! A próxima dose da ${vacinaTomada} é daqui a ${tempo} dias. Compareça no posto na data ${data}.`)
+
+}vacinaDoses(juliano,astrazenica)
+
+exercicio 6
+function validarSegundaDose(nome) {
+    const usuarios = [
+       { nome: "Artur", imunizacao: "incompleta" },
+       { nome: "Barbara", imunizacao: "incompleta" },
+       { nome: "Carlos", imunizacao: "incompleta" }
+]
+for(let usuarios of usuarios) {
+    if(usuarios.nome === "Artur" && usuarios.nome === "Barbara" && usuarios.nome === "Carlos")
+     usuarios.imunizacao === completo
+}
+
+
+}validarSegundaDose(nome)
+
+exercicio 7
+
+function checarSegundaDose(nome,imunizacao) {
+  const usuarios = [
+       { nome: "Artur", imunizacao: "incompleta" },
+      { nome: "Barbara", imunizacao: "completa" },
+       { nome: "Carlos", imunizacao: "incompleta" }
+]
+  for(usuarios of usuarios) {
+   if(usuarios.inumizacao === "incompleta") {
+    console.log(Olá ${usuarios.nome}! Sua imunização está ${usuarios.imunizacao}, por favor volte ao postinho para tomar a segunda dose.`)   
+    }
+
+   }
+}checarSegundaDose(nome,imunizacao)
