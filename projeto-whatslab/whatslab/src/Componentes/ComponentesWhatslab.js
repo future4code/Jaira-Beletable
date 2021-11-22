@@ -50,7 +50,7 @@ margin: 0 auto;
  
 state = {
 novaMensagem: '',
-mostrarMensagem: true
+mostrarMensagem: false
 }
 
 onChangeMensagem = (event) => {
@@ -60,7 +60,7 @@ onChangeclick = (event) => {
     this.setState({novaMensagem: event.target.value})
   
 }
-onChangemensagemNova = (event) => {
+onChangemensagemNova = () => {
   this.setState({mostrarMensagem: this.state.mostrarMensagem})
 }
   
@@ -83,8 +83,10 @@ render() {
     
       
         <p>{this.state.novaMensagem}</p>
-          <TelaContainer/>
-          {mensagem}
+          <TelaContainer
+          
+          {...mensagem}/>
+          
         
       
         <Usuario>usuário</Usuario>
