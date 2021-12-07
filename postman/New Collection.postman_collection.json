@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "456b142f-fa4e-4f77-9b42-43cff2da8bca",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "Authorization",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "jaira-beletable-joy",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"playlist-jaira\",\r\n    \"name0\": \"playlist-jb\",\r\n    \"name1\": \"playlist-jsb\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://minha-requisicao",
+					"protocol": "https",
+					"host": [
+						"minha-requisicao"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "addPlaylist",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"playlist-jaira\",\r\n    \"name0\": \"playlist-jb\",\r\n    \"name1\":\"playlist-jsb\"\r\n}\r\n\r\n\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://minha-requisicao",
+							"protocol": "https",
+							"host": [
+								"minha-requisicao"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
