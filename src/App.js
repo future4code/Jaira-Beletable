@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import axios from "axios"
+import  styled from 'styled-components'
 
-function App() {
+class App extends React.Component() {
+  ComponentDidMount() {
+    this.criarPlaylist()
+  }
+  
+  state={
+    buscarPorNome:"",
+    nomeDaMusica: "",
+    nomeDoArtista: "",
+    link:""
+
+  }
+criarPlaylist = async () => {
+  try {
+    const response = await axios.post('https://us-central1-labenu-apis.cloudfunctions.net/labefy/playlists', {
+      headers: {
+        Authorization: 'jaira-beletable-joy'
+      }
+    })
+  
+console.log(response.data)
+}catch(error) {
+  console.log(error.response.data)
+}
+}
+}
+onchangebuscarPorNome = (event) => {
+  this.setState({buscarPorNome: event.target.value})
+}
+onchangenomeDaMusica =  (event) => {
+  this.setState({nomeDaMusica: event.target.value})
+}
+onchangenomeDoArtista =  (event) => {
+  this.setState({nomeDoArtista: event.target.value})
+}
+onchangelink = (event) => {
+  this.setState({link: event.target.value})
+
+}
+onclickbuscar = () => {
+  this.setState ({buscarPorNome: this.state.buscarPorNome})
+}
+
+  render() ;{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2>labefy</h2>
     </div>
   );
-}
+  }
+  
+  
 
 export default App;
