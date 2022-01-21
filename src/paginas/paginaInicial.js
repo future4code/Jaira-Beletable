@@ -17,6 +17,6 @@ return
 <div>
     <p>Labex</p>
     <button onClick=(irParaViagens)>Ver Viagens</button>
-    <button onClick=(irParaLogin)>ÁREA DE ADMIN</button>
+    <button onClick=(irParaLogin)>ÁREA de  ADMIN</button>
 </div>
 }

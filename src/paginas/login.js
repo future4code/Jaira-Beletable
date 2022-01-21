@@ -28,7 +28,7 @@ return <div>
     <input placeholder='senha' value={senha}
     onChange={onChangeSenha}
     />
-    <button onClick=(irPaginaIncial)>voltar</button>
+    <button onClick=(irPaginaInicial)>voltar</button>
     <button onClick=(EntrarNoSite)>entrar</button>
 </div>
 }
